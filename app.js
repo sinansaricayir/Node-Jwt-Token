@@ -17,7 +17,7 @@ router.post('/login',(req,res,next)=>{
         ad:'Sinan',
         exp: Math.floor(Date.now()/100)+60,
         issuer:'sinansaricayir@gmail.com'
-    },'secretKey')
+    },'secretkey')
     res.send(token)
 })
 
